@@ -408,3 +408,76 @@ line-height: 1.86;
 .popular .course-item .btn-book:hover{
     background-color: var(--primary-color);
 }
+
+/* ==================feetback================== */
+.feetback{
+    margin-top: 135px;
+    padding: 96px 0;
+    background-color: #2e2100;
+}
+.feetback-list{
+    display: flex;
+overflow: hidden;
+}
+
+.feetback-item{
+    display: flex;
+    flex-shrink: 0 ;
+    transform: translateX(-100%);
+    transition: all ease .5s;
+}
+
+.feetback-item .avatar{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feetback-item .info .member-name{
+    margin-top: 18px;
+    color: #f7f7f7;
+    font-family: var(--font-heading);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.42;
+}
+
+.feetback-item .info .desc{
+ margin-top: 4px;
+ color: #bfbcb2;
+ font-size: 1.4rem;
+ line-height: 1.86;
+}
+
+.feetback-item .dots{
+    gap: 6px;
+    display: flex;
+    margin-top: 28px;
+}
+
+.feetback-item .dot.active{
+    background-color: var(--primary-color);
+    cursor: default;
+}
+.feetback-item .dot{
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color:  #634700; 
+    cursor: pointer;
+}
+
+.feetback-item .content{
+    width: 66%;
+    margin-left: auto;
+}
+
+.feetback-item blockquote {
+    color: #fff;
+    font-size: 2.6rem;
+    font-style: italic;
+    line-height: 1.54;
+}
+
+
